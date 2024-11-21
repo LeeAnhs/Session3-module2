@@ -5,7 +5,7 @@ int main () {
 	char name[100];
 	//B2:Nhap xuat du lieu
 	printf("Enter your name:");
-	scanf("%s", name);
+	scanf("%s", &name);
 	//B3: Hien thi ket qua
 	printf("Xin chao %s\n", name);
 	//B4:Ket thuc chuong trinh
